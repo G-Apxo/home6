@@ -1,34 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-img{
+
+img {
     width: 100%;
 }
-.container{
+
+.container {
     width: 1440px;
     margin: 0 auto;
-    
 }
-.background{
-    background-image: url(./img/back.jpg);
-    width: 1440px;
-height: 960px;
 
+.background {
+    background-image: url(./img/back.jpg);
+    background-size: cover;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
 }
-.justify_between{
+
+.justify_between {
     justify-content: space-between;
 }
-.nav_link{
+
+.nav_link {
     list-style: none;
     gap: 40px;
     margin-right: 30px;
 }
-.logpt1{
+
+.logpt1 {
     height: 20px;
     width: 27.750001907348633px;
     left: 63.25px;
@@ -38,7 +42,8 @@ height: 960px;
     margin-top: 10px;
     margin-left: 63px;
 }
-.lgpt2{
+
+.lgpt2 {
     height: 58px;
     width: 143px;
     left: 91px;
@@ -46,7 +51,8 @@ height: 960px;
     border-radius: 0px;
     padding: 4px 0px 4px 0px;
 }
-.lgpt3{
+
+.lgpt3 {
     height: 20px;
     width: 28.5px;
     left: 262.5px;
@@ -55,7 +61,8 @@ height: 960px;
     align-items: center;
     margin-top: 10px;
 }
-.primery-btn{
+
+.primery-btn {
     height: 36px;
     width: 71px;
     border-radius: 0px;
@@ -66,21 +73,22 @@ height: 960px;
     Font style: Regular;
     Font size: 16px;
     Line height: 16px;
-    Line height: 100%; 
+    Line height: 100%;
     Vertical align: Top
 }
-amit ver gavstile fonti sanam yvelas ar mivuwere
-.nav-link-li{
+
+amit ver gavstile fonti sanam yvelas ar mivuwere .nav-link-li {
     Font family: Lucida Sans;
     Font style: Regular;
     Font size: 16px;
     Line height: 19px;
     Line height: 100%;
     align: left;
-    color : rgba(255, 255, 255, 1)
+    color: rgba(255, 255, 255, 1)
 }
-.nav_link_li  {
-    border-bottom:  2px solid #F66844 ;
+
+.nav_link_li {
+    border-bottom: 2px solid #F66844;
     align-items: center;
     Font family: Lucida Sans;
     Font style: Regular;
@@ -88,15 +96,18 @@ amit ver gavstile fonti sanam yvelas ar mivuwere
     Line height: 19px;
     Line height: 100%;
     align: left;
-    color : rgba(255, 255, 255, 1)
+    color: rgba(255, 255, 255, 1)
 }
-.align-center{
+
+.align-center {
     align-items: center;
 }
-.header-back{
+
+.header-back {
     background-color: black;
 }
-.banner{
+
+.banner {
     width: 531px;
     height: 223px;
     margin-left: 10px;
@@ -104,24 +115,26 @@ amit ver gavstile fonti sanam yvelas ar mivuwere
     background: linear-gradient(180deg, rgba(57, 57, 57, 0.25) 0%, rgba(57, 57, 57, 0) 100%);
     backdrop-filter: blur(2px);
     justify-content: center;
-    
-}
-.bannerH1{
-    width: 368px;
-height: 150px;
-font-family: 'Lucida Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 64px;
-line-height: 75px;
-color: #FFFFFF;
-margin-top: 33px;
-margin-right: 82px;
-margin-bottom: 25px;
-margin-left: 81px;
 
 }
-.pclass{
+
+.bannerH1 {
+    width: 368px;
+    height: 150px;
+    font-family: 'Lucida Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    margin-top: 33px;
+    margin-right: 82px;
+    margin-bottom: 25px;
+    margin-left: 81px;
+
+}
+
+.pclass {
     width: 368px;
     height: 36px;
     gap: 10px;
@@ -134,16 +147,47 @@ margin-left: 81px;
     line-height: 18px;
     color: rgba(255, 255, 255, 0.5);
 }
-.btn-cont{
+
+.btn-cont {
     display: flex;
     margin-top: 121px;
     margin-right: 1653px;
     margin-bottom: 445px;
     margin-left: 131px;
-    justify-content: space-between ;
+    justify-content: space-between;
 
 }
-.prbtn{
+
+.row {
+    display: flex;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+.btn_main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FF921B;
+    padding: 0px 20px;
+}
+
+.g-25 {
+    gap: 25px;
+}
+
+.btn_content {
+    color: white;
+}
+
+.icon {
+    width: 34px;
+}
+
+.prbtn {
     width: 136px;
     height: 44px;
     left: 131px;
@@ -157,14 +201,15 @@ margin-left: 81px;
     text-align: center;
     color: #FFFFFF;
 }
-.scbtn{
+
+.scbtn {
     justify-content: center;
     align-items: center;
     padding: 10px 20px;
     gap: 10px;
     width: 174px;
     height: 44px;
-    background: linear-gradient(border: 1px solid;border-image-source: linear-gradient(90deg, #F66844 0%, #FF921B 100%);
-);
-    
+    background: linear-gradient(border: 1px solid; border-image-source: linear-gradient(90deg, #F66844 0%, #FF921B 100%);
+        );
+
 }
